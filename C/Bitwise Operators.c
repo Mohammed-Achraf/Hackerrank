@@ -8,7 +8,7 @@
 void calculate_the_maximum(int n, int k) {
   //Write your code here.
   int AND, maxAND = 0, OR, maxOR = 0, XOR, maxXOR = 0;
-  for(int i = 1; i < n; i++)
+  for(int i = 1; i <= n; i++)
     {
     for(int j = i + 1; j <= n; j++)  
         {
